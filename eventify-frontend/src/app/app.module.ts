@@ -12,9 +12,6 @@ import { ButtonEmComponent } from './button-em/button-em.component';
 import { ButtonCcComponent } from './button-cc/button-cc.component';
 import { ButtonCbComponent } from './button-cb/button-cb.component';
 import { ButtonFaqComponent } from './button-faq/button-faq.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { FooterComponent } from './footer/footer.component';
-import { ContentComponent } from './content/content.component';
 
 
 
@@ -28,9 +25,7 @@ import { ContentComponent } from './content/content.component';
     ButtonCcComponent,
     ButtonCbComponent,
     ButtonFaqComponent,
-    NavBarComponent,
-    FooterComponent,
-    ContentComponent,
+
 
 
   ],
