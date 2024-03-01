@@ -1,0 +1,127 @@
+// body {font-family: lato;}
+// * {box-sizing: border-box}
+
+// /* Full-width input fields */
+// input[type=text], input[type=password] {
+//   width: 100%;
+//   padding: 15px;
+//   margin: 5px 0 22px 0;
+//   display: inline-block;
+//   border: none;
+//   background: #f1f1f1;
+// }
+
+// input[type=text]:focus, input[type=password]:focus {
+//   background-color: #ddd;
+//   outline: none;
+// }
+
+// hr {
+//   border: 1px solid #f1f1f1;
+//   margin-bottom: 25px;
+// }
+
+// /* Set a style for all buttons */
+// button {
+//   background-color: #04AA6D;
+//   color: white;
+//   padding: 14px 20px;
+//   margin: 8px 0;
+//   border: none;
+//   cursor: pointer;
+//   width: 100%;
+//   opacity: 0.9;
+// }
+
+// button:hover {
+//   opacity:1;
+// }
+
+// /* Float cancel and signup buttons and add an equal width */
+//  .signupbtn {
+//   float: left;
+//   width: 50%;
+// }
+
+// /* Add padding to container elements */
+// .container {
+//   padding: 16px;
+// }
+
+// /* Clear floats */
+// .clearfix::after {
+//   content: "";
+//   clear: both;
+//   display: table;
+// }
+
+// /* Change styles for cancel button and signup button on extra small screens */
+// @media screen and (max-width: 300px) {
+//   .cancelbtn, .signupbtn {
+//      width: 100%;
+//   }
+// }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 700px;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: right;
+align-items: right;
+  padding: 0px 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+::content.changepw{
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-family: lato;
+
+}
+::content.changepw input{
+  width: 90%;
+  height: 30px;
+
+}
+
+::content.changepw select{
+  width: 90%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+::content.changepw{
+  border-style:solid ;
+  border-color: grayscale($color: #74777b82);
+  height: 100%;
+  width: 100%;
+  padding: 200px;
+  margin-left: 0;
+}
+::content.changepw h2{
+  padding-bottom: 20px;
+}
+::content.changepw input{
+  margin-bottom: 15px;
+}
+
+Button {
+  background-color: #1C5864;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 2px;
+  cursor: pointer;
+  width: 60%;
+}

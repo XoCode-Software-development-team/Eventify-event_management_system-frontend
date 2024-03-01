@@ -1,0 +1,40 @@
+// .background{
+//     height:100%;
+//     width:50%;
+//      background-image: url("/assets/images/background.jpeg");
+//      background-repeat: no-repeat;
+//      background-position: right;
+//      background-size:cover;
+//      filter: blur(4px);
+//      overflow: hidden;
+//      margin-top: 0%;
+
+
+// logo{
+//     align-items:center ;
+//     margin: 0px;
+//     padding: 200px;
+//     height: 10%;
+//     width: 10%;
+// }
+img {
+    align-items: center;
+
+    padding: 150px 150px;
+    height: 40%;
+    width: 60%;
+    padding-top: 200px;
+
+}
+
+body {
+    background-image: url("/assets/images/Backgroundimg.jpeg");
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}

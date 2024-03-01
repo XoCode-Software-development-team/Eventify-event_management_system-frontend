@@ -1,0 +1,110 @@
+<!-- <header>
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-3">
+                <div class="logo">
+ 
+                </div>
+            </div>
+
+                <div class="col-md-9 col-sm-9 col-9 text-end">
+                    <div class="menu_icon"[class.menu_icon_Class]="menu_icon_variable" (click)="openMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+            
+                
+                
+                    <div class="menu" [class.menuClass]="menuVariable">
+                
+                            
+                        <ul>
+                            <li><img src="assets/images/Logo.png" alt="logo" width="150px"></li>
+                            <li><a href="#contact">Home</a></li>
+                            <li><a href="#about">Service</a></li>
+                            <li><a href="#contact">Resource</a></li>
+                            <li><a href="#news">Checklist</a></li>
+                            <li><a href="#home">Userguide</a></li>
+                              <li><a href="#about"></a></li>
+                          </ul>  
+                        
+                          
+   
+                            
+                            
+                            
+                          
+                          
+
+                   </div>
+            </div>
+        </div>
+    </div>
+</header> -->
+<!-- 2<body>
+    <header>
+        <nav class="navbar">
+        
+        <ul class="links">
+        <li><img src="assets/images/Logo.png" alt="logo" width="150px"></li>
+            <li><a href="#contact">Home</a></li>
+            <li><a href="#about">Service</a></li>
+            <li><a href="#contact">Resource</a></li>
+            <li><a href="#news">Checklist</a></li>
+            <li><a href="#home">Userguide</a></li>
+              <li><a href="#about"></a></li>
+          </ul>
+
+
+        </nav>
+    </header>
+</body> -->
+
+<!-- <body>
+
+<header>
+  <div class="container">
+    <div class="logo">
+      <img src="logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+</body>
+ -->
+
+ <body>
+ 
+    <header>
+      <div class="container1">
+        <div class="logo">
+          <img src="assets/images/Logo.png" alt="Logo">
+        </div>
+        <nav>
+         <ul>
+            <li *ngFor="let item of clientNavbar">{{item.Name}}</li>
+         </ul>      
+        </nav>
+        <div class="buttons">
+          <button>Login</button>
+          <button>Sign in</button>
+          
+        </div>
+        <!-- <div class="user">
+           <img src="assets/images/User.png" alt="user">
+        </div> -->
+        
+      </div>
+    </header>
+    
+    </body>
+    

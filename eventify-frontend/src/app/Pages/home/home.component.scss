@@ -1,0 +1,70 @@
+
+
+
+
+*{
+    margin:0;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: lato;     
+}
+.background{
+    height:100%;
+    width:100%;
+     background-image: url("/assets/images/Backgroundimg.jpeg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size:cover;
+    // filter: blur(2px);
+    backdrop-filter: blur(40px);
+    //background-color: rgba(255, 255, 255, 0.5);
+
+     overflow: hidden;
+     padding-top: 200px;
+    padding-left: 80px;
+z-index: -1;
+
+}
+
+.background .girl img{
+  height: 700px;
+  width: 700px;
+ float: right;
+ padding-bottom:400px;
+ margin-bottom: 600px;
+ align-items: center;
+ padding-right: 300px;
+
+  
+}
+.background .para{
+    font-size: larger;
+
+}
+.background .head h3 {
+    font-size: 50px;
+    color: rgb(9, 64, 111);
+    line-height: 80px
+
+}
+.background .head h1{
+    font-size: 70px;
+    color: rgb(9, 64, 111);
+    margin-bottom: 10px;
+
+}
+
+
+
+p{
+    font-family: lato;
+    color: black;
+}
+
+.container {
+    align-items: center;
+}
+
+.container p {
+    text-align: center;
+}
