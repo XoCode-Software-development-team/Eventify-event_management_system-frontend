@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\eventify-backend.props" />
-=======
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\eventify-backend.props" />
->>>>>>> develop
-</Project>
