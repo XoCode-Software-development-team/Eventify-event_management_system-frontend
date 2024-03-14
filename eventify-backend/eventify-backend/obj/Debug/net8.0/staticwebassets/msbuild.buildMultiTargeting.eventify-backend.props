@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 ﻿<Project>
   <Import Project="..\build\eventify-backend.props" />
+=======
+﻿<Project>
+  <Import Project="..\build\eventify-backend.props" />
+>>>>>>> develop
 </Project>
